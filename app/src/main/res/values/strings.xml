@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Home of English</string>
+    <string name="about"><b>\n\nWelcome to Home of English International School.</b> \n\nEstablished in 1997, Home of English International has emerged as Phnom Penh’s leading private children’s English school. \n \n We offer a wide range of English programs from pre-school to high school. The student-centered English learning environments at our school produce confident, proficient speakers of English. \n \n Visit us and discover why we are the first choice in education among Cambodia’s leading families.</string>
+    <string name="news"><b>Home of English International School News</b>\n\n The <b>Homeschool Harriers</b> brought home gold once again in the Phnom Penh Interschools Championship.\n\n A Grade 3 girl, <b>Keng Sokha</b>, of class 201A, has just smashed records by doing 2,100 sit-ups in 90 minutes. Sokha completed the intense challenge at school with her P.E teacher, <b>Mr Nary</b> - beating the previous national record of 2,002 sit-ups. \n\n Sokha was encouraged after her mother, <b>Keng Kimnai</b>, ran a half marathon.</string>
+    <string name="fees"><b>Home of English International School Fees\n\nGrades 1 - 4</b>\n\nMonthly $380\n\nTerm $1000\n\nAnnual $3700\n\n\n<b>Grades 5 - 8</b>\n\nMonthly $410\n\nTerm $1050\n\nAnnual $3850 </string>
+    <string name="title_activity_maps">Map</string>
+</resources>
