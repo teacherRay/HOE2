@@ -7,17 +7,17 @@ android:layout_height="match_parent"
 tools:context=".AboutActivity"
 android:id="@+id/relativeLayout2">
 
-<ImageView
-    android:id="@+id/imagelogo"
-    android:layout_width="0dp"
-    android:layout_height="106dp"
-    android:layout_marginBottom="8dp"
-    android:background="@drawable/hoesmallbanner"
-    app:layout_constraintBottom_toTopOf="@+id/buttonFees"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.0" />
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="0dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/hoesmallbanner"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFees"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 <TextView
     android:id="@+id/TextAbout"
