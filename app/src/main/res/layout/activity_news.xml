@@ -48,7 +48,7 @@
         android:layout_marginStart="256dp"
         android:layout_marginTop="8dp"
         android:background="#f4437e"
-        android:text="Back"
+        android:text="@string/backbtn"
         android:textColorLink="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.071"
