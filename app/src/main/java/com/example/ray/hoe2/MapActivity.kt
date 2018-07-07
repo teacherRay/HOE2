@@ -27,7 +27,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         mMap.setMinZoomPreference(15.0f)
-        mMap.setMaxZoomPreference(20.0f)
+        mMap.setMaxZoomPreference(18.0f)
 
         // Add a marker in Home of English and move the camera
         val hoe = LatLng(11.548259, 104.914899)
