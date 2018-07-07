@@ -30,14 +30,17 @@
         android:layout_marginLeft="256dp"
         android:layout_marginStart="256dp"
         android:layout_marginTop="8dp"
+        android:background="#f4437e"
         android:text="Back"
+        android:textColorLink="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:id="@+id/textView"
