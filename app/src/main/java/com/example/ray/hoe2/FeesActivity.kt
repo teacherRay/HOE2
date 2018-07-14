@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.support.v7.app.ActionBar
 
 class FeesActivity : AppCompatActivity() {
 
@@ -11,10 +12,8 @@ class FeesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fees)
 
-        val btnPrevScreen: Button = findViewById(R.id.buttonBack)
-        btnPrevScreen.setOnClickListener{
-            val intent = Intent(this, AboutActivity::class.java)
-            startActivity(intent)
-        }
+            }
+    override fun getSupportActionBar(): ActionBar? {
+        return super.getSupportActionBar()
     }
 }
