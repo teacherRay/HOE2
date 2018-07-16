@@ -27,6 +27,12 @@ class AboutActivity : AppCompatActivity() {
             val intent = Intent(this,MapActivity :: class.java)
             startActivity(intent)
         }
+
+        val btnCalendarScreen : Button = findViewById(R.id.buttonCalendar)
+        btnCalendarScreen.setOnClickListener{
+            val intent = Intent(this,CalendarActivity :: class.java)
+            startActivity(intent)
+        }
     }
 
 
