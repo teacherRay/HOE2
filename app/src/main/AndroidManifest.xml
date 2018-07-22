@@ -21,7 +21,7 @@
             android:name=".NewsActivity"
             android:parentActivityName=".AboutActivity" />
         <activity
-            android:name=".CalendarActivity"
+            android:name=".CalActivity"
             android:parentActivityName=".AboutActivity" />
         <activity android:name=".AboutActivity">
             <intent-filter>
@@ -35,8 +35,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-
-
+        <activity android:name=".CalActivityAboutActivity"></activity>
     </application>
 
 </manifest>

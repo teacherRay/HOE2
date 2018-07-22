@@ -30,7 +30,7 @@ class AboutActivity : AppCompatActivity() {
 
         val btnCalendarScreen : Button = findViewById(R.id.buttonCalendar)
         btnCalendarScreen.setOnClickListener{
-            val intent = Intent(this,CalendarActivity :: class.java)
+            val intent = Intent(this,CalActivity :: class.java)
             startActivity(intent)
         }
     }
