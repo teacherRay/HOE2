@@ -22,8 +22,7 @@
             android:parentActivityName=".AboutActivity" />
         <activity
             android:name=".CalendarActivity"
-            android:parentActivityName=".AboutActivity"/>
-
+            android:parentActivityName=".AboutActivity" />
         <activity android:name=".AboutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +34,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
 
 
     </application>

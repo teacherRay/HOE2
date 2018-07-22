@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">Home of English</string>
-    <string name="about"><b>\n\nWelcome to Home of English International School.</b> \n\nEstablished in 1997, Home of English International has emerged as Phnom Penh’s leading private children’s English school. \n \n We offer a wide range of English programs from pre-school to high school. The student-centered English learning environments at our school produce confident, proficient speakers of English. \n \n Visit us and discover why we are the first choice in education among Cambodia’s leading families.</string>
+    <string name="about_title_welcome"><b>Welcome to</b></string>
+    <string name="about">Established in 1997, Home of English International has emerged as Phnom Penh’s leading private children’s English school. \n \n We offer a wide range of English programs from pre-school to high school. The student-centered English learning environments at our school produce confident, proficient speakers of English. \n \n Visit us and discover why we are the first choice in education among Cambodia’s leading families.\n\n</string>
     <string name="fees"><b>Home of English International School Fees\n\nGrades 1 - 4</b>\n\nMonthly $380\n\nTerm $1000\n\nAnnual $3700\n\n\n<b>Grades 5 - 8</b>\n\nMonthly $410\n\nTerm $1050\n\nAnnual $3850 </string>
     <string name="title_activity_scrolling_news">ScrollingNewsActivity</string>
+
+    <string name="btn_news">News</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_calendar">Calendar</string>
+    <string name="btn_fees">Fees</string>
+
+    <string name="about_title"><b>Home of English International School</b></string>
+
     <string name="news">
         "Material is the metaphor.\n\n"
 
@@ -35,10 +44,6 @@
         "breaking the continuity of experience even as they transform and reorganize.\n"
         "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
         "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-
     </string>
-    <string name="action_settings">Settings</string>
-
 
 </resources>
