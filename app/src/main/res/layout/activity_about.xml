@@ -10,8 +10,8 @@ android:id="@+id/relativeLayout2">
 
     <ImageView
         android:id="@+id/imagelogo"
-        android:layout_width="371dp"
-        android:layout_height="105dp"
+        android:layout_width="381dp"
+        android:layout_height="90dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/hoesmallbanner"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,68 +21,14 @@ android:id="@+id/relativeLayout2">
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="31dp"
-        android:gravity="center_horizontal|center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imagelogo"
-        app:layout_constraintVertical_bias="0.843"
-        tools:layout_editor_absoluteX="0dp">
-
-        <Button
-            android:id="@+id/buttonFees"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#fe9b9e"
-            android:text="@string/btn_fees"
-            android:textColor="@color/colorPrimaryDark" />
-
-        <Button
-            android:id="@+id/buttonCalendar"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
-
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#fe9b9e"
-            android:text="@string/btn_calendar"
-            android:textColor="@color/colorPrimaryDark" />
-
-        <Button
-            android:id="@+id/buttonNews"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#fe9b9e"
-            android:text="@string/btn_news"
-            android:textColor="@color/colorPrimaryDark" />
-
-        <Button
-            android:id="@+id/buttonMap"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#fe9b9e"
-            android:text="@string/btn_map"
-            android:textColor="@color/colorPrimaryDark" />
-
-    </LinearLayout>
-
 
     <TextView
         android:id="@+id/TextAbout"
         android:layout_width="296dp"
         android:layout_height="308dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginLeft="44dp"
         android:layout_marginRight="10dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="8dp"
         android:paddingLeft="1sp"
         android:paddingTop="0sp"
@@ -96,7 +42,7 @@ android:id="@+id/relativeLayout2">
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482"
+        app:layout_constraintVertical_bias="0.525"
         tools:layout_conversion_absoluteHeight="284dp"
         tools:layout_conversion_absoluteWidth="336dp" />
 
@@ -108,8 +54,7 @@ android:id="@+id/relativeLayout2">
         android:background="@drawable/coreyandclass2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

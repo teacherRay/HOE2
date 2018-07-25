@@ -20,9 +20,14 @@
                 android:orderInCategory="5"
                 android:title="Fees" />
             <item
-                android:id="@+id/about_menu_item"
-                android:orderInCategory="6"
-                android:title="About" />
+            android:id="@+id/about_menu_item"
+            android:orderInCategory="6"
+            android:title="About" />
+
+            <item
+                android:id="@+id/news_menu_item"
+                android:orderInCategory="3"
+                android:title="News" />
 
 
         </menu>
