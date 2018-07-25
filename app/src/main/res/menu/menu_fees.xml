@@ -30,10 +30,6 @@
                 android:title="Map"
                 app:showAsAction="never" />
             <item
-                android:id="@+id/fees_menu_item"
-                android:orderInCategory="5"
-                android:title="Fees" />
-            <item
                 android:id="@+id/about_menu_item"
                 android:orderInCategory="6"
                 android:title="About" />

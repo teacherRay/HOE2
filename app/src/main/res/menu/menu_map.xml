@@ -25,11 +25,6 @@
                 android:visible="true"
                 app:showAsAction="never" />
             <item
-                android:id="@+id/map_menu_item"
-                android:orderInCategory="4"
-                android:title="Map"
-                app:showAsAction="never" />
-            <item
                 android:id="@+id/fees_menu_item"
                 android:orderInCategory="5"
                 android:title="Fees" />
