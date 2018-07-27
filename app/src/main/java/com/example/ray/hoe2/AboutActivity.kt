@@ -33,12 +33,10 @@ class AboutActivity : AppCompatActivity() {
         return true
     }
 
-
         public fun showMap(){
             val intent = Intent(this,MapActivity :: class.java)
             startActivity(intent)
         }
-
         public fun showCalendar(){
             val intent = Intent(this,CalActivity :: class.java)
             startActivity(intent)

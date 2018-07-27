@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
+
 
 class NewsActivity : AppCompatActivity() {
 
@@ -33,7 +33,7 @@ class NewsActivity : AppCompatActivity() {
         return true
     }
 
-
+    //TODO (2) Add the photos from Google Photos or other api
     private fun showAbout(){
         val intent = Intent(this,AboutActivity :: class.java)
         startActivity(intent)
