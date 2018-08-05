@@ -8,9 +8,10 @@ tools:context=".AboutActivity"
 android:id="@+id/relativeLayout2">
 
 
+
     <ImageView
-        android:id="@+id/imagelogo"
-        android:layout_width="381dp"
+       android:id="@+id/imagelogo"
+       android:layout_width="381dp"
         android:layout_height="90dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/hoesmallbanner"
@@ -47,14 +48,13 @@ android:id="@+id/relativeLayout2">
         tools:layout_conversion_absoluteWidth="336dp" />
 
 
-    <ImageView
-        android:id="@+id/imagecorey"
-        android:layout_width="0dp"
-        android:layout_height="90dp"
-        android:background="@drawable/coreyandclass2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+     <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"/>
 
 
 </android.support.constraint.ConstraintLayout>
