@@ -8,11 +8,10 @@ tools:context=".AboutActivity"
 android:id="@+id/relativeLayout2">
 
 
-
     <ImageView
-       android:id="@+id/imagelogo"
-       android:layout_width="381dp"
-        android:layout_height="90dp"
+        android:id="@+id/imagelogo"
+        android:layout_width="381dp"
+        android:layout_height="106dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/hoesmallbanner"
         app:layout_constraintBottom_toBottomOf="parent"

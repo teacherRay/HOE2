@@ -1,4 +1,5 @@
-package com.example.ray.hoe2
+//package com.example.ray.hoe2
+package com.camboray.hoe
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -7,12 +8,17 @@ import android.widget.Button
 import android.support.v7.app.ActionBar
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageView
+import com.squareup.picasso.Picasso
 
 class FeesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fees)
+
+        var FeesImage = findViewById(R.id.feesImage) as ImageView
+        Picasso.get().load("http://www.homeofenglish.edu.kh/images/Gallery/App/fees2.png").into(FeesImage)
 
             }
     override fun getSupportActionBar(): ActionBar? {

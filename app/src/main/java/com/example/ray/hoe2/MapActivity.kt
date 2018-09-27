@@ -1,4 +1,4 @@
-package com.example.ray.hoe2
+package com.camboray.hoe
 
 import android.content.Intent
 import android.os.Bundle
@@ -67,9 +67,9 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         val intent = Intent(this,CalActivity :: class.java)
         startActivity(intent)
     }
-    public fun showNews(){
-        val intent = Intent(this,NewsActivity :: class.java)
-        startActivity(intent)
+   public fun showNews(){
+       val intent = Intent(this,NewsActivity :: class.java)
+       startActivity(intent)
     }
     public fun showFees(){
         val intent = Intent(this,FeesActivity :: class.java)

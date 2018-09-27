@@ -1,4 +1,5 @@
-package com.example.ray.hoe2
+//package com.example.ray.hoe2
+package com.camboray.hoe
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity

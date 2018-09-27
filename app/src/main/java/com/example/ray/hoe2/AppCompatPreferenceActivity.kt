@@ -1,4 +1,4 @@
-package com.example.ray.hoe2
+package com.camboray.hoe
 
 import android.content.res.Configuration
 import android.os.Bundle

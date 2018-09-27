@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ray.hoe2">
+    package="com.camboray.hoe">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    // TODO:
 
     <application
         android:allowBackup="true"
@@ -15,12 +16,12 @@
         <activity
             android:name=".FeesActivity" />
         <activity
+            android:name=".AboutActivity" />
+        <activity
             android:name=".MapActivity" />
         <activity
-            android:name=".NewsActivity" />
-        <activity
             android:name=".CalActivity" />
-        <activity android:name=".AboutActivity">
+        <activity android:name=".NewsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

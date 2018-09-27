@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        // fixme: 1 Photos from the cloud, Google Photos?
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        // TODO :
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -45,76 +45,101 @@
                     android:text="@string/news"
                     android:textSize="18sp" />
 
-                <ImageView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:paddingBottom="10dp"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/elephants"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="455dp" />
 
                 <ImageView
-
+                    android:id="@+id/image1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/orangutan1"
-                    android:paddingBottom="10dp"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="455dp" />
+                    />
 
                 <ImageView
-
+                    android:id="@+id/image2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/orangutan2"
-                    android:paddingBottom="10dp"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="455dp" />
+                    />
 
                 <ImageView
-
+                    android:id="@+id/image3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/walkway"
-                    tools:layout_editor_absoluteX="0dp"
-                    android:paddingBottom="10dp"
-                    tools:layout_editor_absoluteY="455dp" />
+                    />
 
                 <ImageView
-
+                    android:id="@+id/image4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/entrance"
-                    android:paddingBottom="10dp"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="455dp" />
+                    />
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/image5"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/tiger2"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="455dp" />
+                    />
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image10"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:id="@+id/image12"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    />
 
             </LinearLayout>
         </ScrollView>
